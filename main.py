@@ -4,6 +4,7 @@ import random
 
 #Ejercicio 1
 #Obtener un numero aleatorio
+
 print("Ejercicio 1- obtener un numero de 256 bits usando la funcion random", random.getrandbits(256),'\n')
 
 #Ejercicio 2
@@ -17,3 +18,6 @@ while(True):
     if(esPrimo):
         print("En la iteracion: ", i, " se econtro el primo: ", j, "\n")
         break
+
+#Ejercicio 3
+#Obtener inverso multiplicativo
