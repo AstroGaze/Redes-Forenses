@@ -10,7 +10,7 @@ clave = Fernet.generate_key()
 f = Fernet(clave)
 
 #Encriptamos el mensaje
-token = f.encrypt(b'Mensaje Secreto')
+token = f.encrypt(b'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolores laudantium dignissimos? Voluptatem officiis libero ipsa temporibus porro cupiditate numquam, ratione cum reiciendis sed illo vel maiores ipsam aperiam iste!')
 
 #Mensaje Cifrado
 print(token)
