@@ -20,5 +20,6 @@ print("Bob: ",  B)
 s1 = potencia(B,numberAlice,primo)
 s2 = potencia(A,numberBob,primo)
 
+
 print("S1: ",s1)
 print("S2: ",s2)
